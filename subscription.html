@@ -22,8 +22,8 @@
                             700: '#1f2937',
                         },
                         brand: {
-                            500: '#6366f1',
-                            600: '#4f46e5',
+                            500: '#d4af6a',
+                            600: '#b8863a',
                         }
                     }
                 }
@@ -32,19 +32,19 @@
     </script>
     <style>
         :root {
-            --bg-primary: #f3f4f6;
+            --bg-primary: #f7f3ec;
             --bg-card: #ffffff;
-            --bg-card-inner: #f9fafb;
-            --bg-input: #f3f4f6;
-            --border-card: #e5e7eb;
-            --border-inner: #e5e7eb;
-            --text-primary: #111827;
-            --text-secondary: #4b5563;
-            --text-muted: #9ca3af;
-            --accent: #6366f1;
-            --accent-light: #e0e7ff;
-            --accent-border: #c7d2fe;
-            --accent-hover: #4f46e5;
+            --bg-card-inner: #faf7f0;
+            --bg-input: #f3ede0;
+            --border-card: #e8ddc8;
+            --border-inner: #efe6d4;
+            --text-primary: #1f1b14;
+            --text-secondary: #6b6455;
+            --text-muted: #a89f8f;
+            --accent: #b8863a;
+            --accent-light: #f3e6c9;
+            --accent-border: #e3cc94;
+            --accent-hover: #9c6f2c;
             --green-bg: #d1fae5;
             --green-border: #a7f3d0;
             --green-text: #059669;
@@ -54,30 +54,30 @@
             --red-bg: #fee2e2;
             --red-border: #fecaca;
             --red-text: #dc2626;
-            --progress-bg: #e5e7eb;
-            --shadow-card: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.025);
-            --btn-primary-bg: #6366f1;
-            --btn-primary-hover: #4f46e5;
-            --btn-secondary-bg: #f3f4f6;
-            --btn-secondary-hover: #e5e7eb;
+            --progress-bg: #e8ddc8;
+            --shadow-card: 0 10px 15px -3px rgba(31, 27, 20, 0.06), 0 4px 6px -2px rgba(31, 27, 20, 0.03);
+            --btn-primary-bg: #b8863a;
+            --btn-primary-hover: #9c6f2c;
+            --btn-secondary-bg: #f3ede0;
+            --btn-secondary-hover: #ebe1cc;
             --modal-bg: rgba(0,0,0,0.5);
             --modal-card: #ffffff;
         }
 
         .dark {
-            --bg-primary: #0b0f19;
-            --bg-card: rgba(17, 24, 39, 0.7);
-            --bg-card-inner: rgba(31, 41, 55, 0.5);
-            --bg-input: #111827;
-            --border-card: rgba(99, 102, 241, 0.15);
-            --border-inner: rgba(99, 102, 241, 0.1);
-            --text-primary: #f9fafb;
-            --text-secondary: #9ca3af;
-            --text-muted: #6b7280;
-            --accent: #818cf8;
-            --accent-light: rgba(99, 102, 241, 0.15);
-            --accent-border: rgba(99, 102, 241, 0.3);
-            --accent-hover: #6366f1;
+            --bg-primary: #09090b;
+            --bg-card: rgba(24, 21, 16, 0.65);
+            --bg-card-inner: rgba(34, 29, 22, 0.5);
+            --bg-input: #17140f;
+            --border-card: rgba(212, 175, 106, 0.16);
+            --border-inner: rgba(212, 175, 106, 0.1);
+            --text-primary: #f5f1e8;
+            --text-secondary: #a89f8f;
+            --text-muted: #6b6455;
+            --accent: #d4af6a;
+            --accent-light: rgba(212, 175, 106, 0.14);
+            --accent-border: rgba(212, 175, 106, 0.3);
+            --accent-hover: #e8c581;
             --green-bg: rgba(16, 185, 129, 0.1);
             --green-border: rgba(16, 185, 129, 0.2);
             --green-text: #34d399;
@@ -87,14 +87,14 @@
             --red-bg: rgba(239, 68, 68, 0.1);
             --red-border: rgba(239, 68, 68, 0.2);
             --red-text: #f87171;
-            --progress-bg: rgba(31, 41, 55, 0.8);
-            --shadow-card: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
-            --btn-primary-bg: #6366f1;
-            --btn-primary-hover: #4f46e5;
-            --btn-secondary-bg: rgba(31, 41, 55, 0.6);
-            --btn-secondary-hover: rgba(55, 65, 81, 0.8);
-            --modal-bg: rgba(0,0,0,0.8);
-            --modal-card: #1f2937;
+            --progress-bg: rgba(34, 29, 22, 0.8);
+            --shadow-card: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 4px 10px -3px rgba(0, 0, 0, 0.3);
+            --btn-primary-bg: #b8863a;
+            --btn-primary-hover: #d4af6a;
+            --btn-secondary-bg: rgba(34, 29, 22, 0.6);
+            --btn-secondary-hover: rgba(48, 41, 30, 0.85);
+            --modal-bg: rgba(0,0,0,0.85);
+            --modal-card: #161310;
         }
 
         body {
@@ -169,7 +169,7 @@
 <body class="min-h-screen py-8 px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-start fade-in relative overflow-x-hidden">
     <!-- Ambient Background Glows -->
     <div class="glow-effect top-0 left-10"></div>
-    <div class="glow-effect bottom-20 right-10" style="background: #34d399;"></div>
+    <div class="glow-effect bottom-20 right-10" style="background: #0d9488;"></div>
 
     <!-- Theme & Language Toggle -->
     <div class="w-full max-w-6xl flex justify-end items-center mb-6 z-10 relative">
@@ -224,7 +224,7 @@
             <!-- Support / Help -->
             <div class="bento-card p-6" style="background: linear-gradient(135deg, var(--bg-card) 0%, var(--accent-light) 200%);">
                 <h3 class="text-sm font-bold flex items-center gap-2 mb-3" style="color: var(--text-primary);">
-                    <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                    <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
                     Help & Support
                 </h3>
                 <p class="text-xs text-secondary mb-4 leading-relaxed">Having trouble connecting? Keep your clients updated or contact support for assistance.</p>
@@ -242,11 +242,11 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <!-- Total Usage -->
                 <div class="bento-card p-6 relative overflow-hidden group">
-                    <div class="absolute -right-6 -top-6 w-24 h-24 bg-indigo-500 opacity-5 rounded-full group-hover:scale-150 transition-transform duration-500"></div>
+                    <div class="absolute -right-6 -top-6 w-24 h-24 bg-amber-500 opacity-5 rounded-full group-hover:scale-150 transition-transform duration-500"></div>
                     <div class="flex justify-between items-start mb-4 relative z-10">
                         <p class="text-xs font-bold uppercase tracking-widest text-secondary" data-i18n="totalUsage">Total Usage</p>
                         <span class="p-2 rounded-lg" style="background: var(--bg-card-inner); border: 1px solid var(--border-inner);">
-                            <svg class="w-4 h-4 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
+                            <svg class="w-4 h-4 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
                         </span>
                     </div>
                     <div class="flex items-baseline gap-1.5 mb-4 relative z-10">
@@ -258,11 +258,11 @@
 
                 <!-- Daily Usage -->
                 <div class="bento-card p-6 relative overflow-hidden group">
-                    <div class="absolute -right-6 -top-6 w-24 h-24 bg-emerald-500 opacity-5 rounded-full group-hover:scale-150 transition-transform duration-500"></div>
+                    <div class="absolute -right-6 -top-6 w-24 h-24 bg-teal-500 opacity-5 rounded-full group-hover:scale-150 transition-transform duration-500"></div>
                     <div class="flex justify-between items-start mb-4 relative z-10">
                         <p class="text-xs font-bold uppercase tracking-widest text-secondary" data-i18n="dailyUsage">Daily Usage</p>
                         <span class="p-2 rounded-lg" style="background: var(--bg-card-inner); border: 1px solid var(--border-inner);">
-                            <svg class="w-4 h-4 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <svg class="w-4 h-4 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         </span>
                     </div>
                     <div class="flex items-baseline gap-1.5 mb-4 relative z-10">
@@ -278,7 +278,7 @@
                 <div class="flex justify-between items-end mb-6">
                     <div>
                         <h3 class="text-lg font-black flex items-center gap-2 mb-1" style="color: var(--text-primary);">
-                            <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+                            <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
                             <span data-i18n="integrationTitle">Integration Connections</span>
                         </h3>
                         <p class="text-xs text-secondary" data-i18n="integrationDesc">Add your preferred configuration link.</p>
